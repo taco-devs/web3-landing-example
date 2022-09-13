@@ -1,10 +1,28 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .App {
+  position:relative;
+  font-family: 'Alata', sans-serif;
   text-align: center;
+  width: 100vw;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 25vh;
+  width: auto;
+  overflow-x: hidden;
   pointer-events: none;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,8 +32,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
